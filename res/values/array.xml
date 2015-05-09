@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name_yuanwen">
+        <item >序文</item>
+        <item >菩提道次第广论卷一</item>
+        <item >菩提道次第广论卷二</item>
+        <item >菩提道次第广论卷三</item>
+        <item >菩提道次第广论卷四</item>
+        <item >菩提道次第广论卷五</item>
+        <item >菩提道次第广论卷六</item>
+        <item >菩提道次第广论卷七</item>
+        <item >菩提道次第广论卷八</item>
+        <item >菩提道次第广论卷九</item>
+        <item >菩提道次第广论卷十</item>
+        
+    </string-array>
+    <string-array name="name_jiangjie">
+        <item >讲解</item>
+        <item >菩提道次第广论卷一</item>
+        <item >菩提道次第广论卷二</item>
+        <item >菩提道次第广论卷三</item>
+        <item >菩提道次第广论卷四</item>
+        <item >菩提道次第广论卷五</item>
+        <item >菩提道次第广论卷六</item>
+        <item >菩提道次第广论卷七</item>
+        <item >菩提道次第广论卷八</item>
+        <item >菩提道次第广论卷九</item>
+        <item >菩提道次第广论卷十</item>
+    </string-array>
+</resources>

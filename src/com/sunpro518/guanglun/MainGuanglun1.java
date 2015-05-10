@@ -43,6 +43,7 @@ public class MainGuanglun1 extends Activity {
 		
 		tempStr = getResources().getStringArray(R.array.name_yuanwen);
 		tempStrLength = tempStr.length;
+		
 		mListView = (ListView) findViewById(R.id.listView1);
         mListItem = getData();
         
@@ -77,8 +78,13 @@ public class MainGuanglun1 extends Activity {
 		public void onClick(View v) {
 			switch(v.getId()) {
 			case R.id.button1:
-				Intent intent = new Intent(MainGuanglun1.this,MainGuanglun2.class);
-				startActivity(intent);
+				//方式一
+//				Intent intent = new Intent(MainGuanglun1.this,MainGuanglun2.class);
+//				startActivity(intent);
+				//方式二
+				Intent intent = new Intent();
+				intent.setClass(MainGuanglun1.this,MainGuanglun2.class);
+				MainGuanglun1.this.startActivity(intent);
 				break;
 			case R.id.button2:
 				

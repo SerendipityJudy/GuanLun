@@ -49,7 +49,16 @@ public class MainGuanglun1 extends Activity {
         
         mListView.setAdapter(new SimpleAdapter(MainGuanglun1.this, mListItem, R.layout.activity_item_main_1,
         		new String[] {"nameOriginal"}, new int[] {R.id.textView1}));
-        // 添加点击
+        
+        // 添加ListView中单击事件
+        //为了响应用户对列表项的单击，调用方法setOnItemClickListener()为ListView注册监听器
+        //setOnItemClickListener()方法的参数是一个新建的OnItemClickListener对象
+        //开发人员必须实现onItemClick()方法
+//arg0 The AdapterView where the click happened.触发事件的AdapterView,此为ListView
+//arg1 View对象，此为单击的列表项
+//arg2 The position of the view in the adapter.项目在AdapterView中的位置0、1、2...
+//arg3 The row id of the item that was clicked.每一行列表项的ID
+        
         mListView.setOnItemClickListener(new OnItemClickListener() {
              public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
               long arg3) {
